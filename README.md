@@ -1,5 +1,15 @@
 # Riz PS
 这是对于Rizline（律动轨迹）游戏港澳台版本的服务端重实现，不装了摊牌了，从名字就能看出来，PS = Private Server，这其实就是个律动轨迹的私服
+# 开发计划
+[√] 完整模拟雷霆SDK
+
+[√] 账号登陆并去除区域、手机卡限制
+
+[√] 正常存档/加载歌曲
+
+[ ] 支持使用resources（将抓包下载到的歌曲assetbundle放入resources供用户下载，resources将由用户提供，Riz PS本体不提供
+
+[ ] 内购全解锁（即使有了iOS也无缘）
 # 如何使用
 ## Step 1: 克隆仓库并补全node_modules
 Riz PS的运行依赖于npm、node、python3 以及python3的库mitmproxy（可以直接通过pip安装），请先安装好这些东西并配置好环境变量，再继续
