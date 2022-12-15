@@ -38,7 +38,8 @@ class MlgmXyysd_Animation_Company_Proxy:
         "leitsdkosshushu.leiting.com",
         "lvdgjosdl.ltgamesglobal.net",
         "sdkoverseasrizlinehmt.ltgamesglobal.net",
-        "skadsdk.appsflyer.com"
+        "amp-api-edge.apps.apple.com",
+        #"skadsdk.appsflyer.com"
     ]
 
     def request(self, flow: http.HTTPFlow) -> None:

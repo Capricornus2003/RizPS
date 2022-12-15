@@ -86,7 +86,7 @@ app.post("/login/sdkCheckLogin.do", (req, res) => {
     req.on('end', function () {
         req_datas = req_datas.split("&")
         console.log(req_datas[0] + "的用户正在使用" + req_datas[3] + "尝试登陆")
-        let resend = "{\"message\":\"{\\\"timestamp\\\":\\\"" + Date.now() + "\\\",\\\"warnEndDate\\\":null,\\\"token\\\":\\\"" + req_datas[3].split("=")[1] + "\\\",\\\"priority\\\":0,\\\"cmtBirth\\\":\\\"0\\\",\\\"bind\\\":\\\"3\\\"}\",\"status\":\"1\"}"
+        let resend = "{\"message\":\"{\\\"timestamp\\\":\\\"" + Date.now() + "\\\",\\\"warnEndDate\\\":null,\\\"token\\\":\\\"" + req_datas[3].split("=")[1] + "\\\",\\\"priority\\\":3,\\\"cmtBirth\\\":\\\"3\\\",\\\"bind\\\":\\\"9\\\"}\",\"status\":\"1\"}"
         console.log(resend)
         res.send(resend)
     });
@@ -140,4 +140,8 @@ app.all("/elva/api/SdkTrack/ExceptionTrack", (req, res) => {
 
 app.all("/api/v1.0/rules", (req, res) => {
     res.send("{\"message\":\"invalid signature\"}")
+})
+
+app.all("/log/chargeLogReport.do", (req, res) => {
+    res.send("success")
 })
