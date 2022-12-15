@@ -1,0 +1,23 @@
+{
+  "name": "riz-ps",
+  "version": "1.0.0",
+  "description": "Rizline's server-side reimplementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Searchstars/RizPS.git"
+  },
+  "author": "Searchstars",
+  "license": "GPL-3",
+  "bugs": {
+    "url": "https://github.com/Searchstars/RizPS/issues"
+  },
+  "homepage": "https://github.com/Searchstars/RizPS#readme",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "http-server": "^14.1.1"
+  }
+}

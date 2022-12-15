@@ -1,0 +1,62 @@
+{
+    "app_events_feature_bitmask": 65541,
+    "name": "Rizline",
+    "default_share_mode": "share_sheet",
+    "ios_sdk_dialog_flows": {
+       "default": {
+          "use_native_flow": false,
+          "use_safari_vc": true
+       },
+       "message": {
+          "use_native_flow": true
+       }
+    },
+    "ios_sdk_error_categories": [
+       {
+          "name": "login",
+          "items": [
+             {
+                "code": 102
+             },
+             {
+                "code": 190
+             }
+          ],
+          "recovery_message": "\u8bf7\u91cd\u65b0\u767b\u5f55\u5e94\u7528\u7a0b\u5e8f\uff0c\u518d\u6b21\u8fde\u63a5 Facebook \u5e10\u6237\u3002",
+          "recovery_options": [
+             "\u786e\u5b9a",
+             "\u53d6\u6d88"
+          ]
+       },
+       {
+          "name": "transient",
+          "items": [
+             {
+                "code": 341
+             },
+             {
+                "code": 9
+             },
+             {
+                "code": 2
+             },
+             {
+                "code": 4
+             },
+             {
+                "code": 17
+             }
+          ],
+          "recovery_message": "\u670d\u52a1\u5668\u6682\u5fd9\uff0c\u8bf7\u91cd\u8bd5\u3002",
+          "recovery_options": [
+             "\u786e\u5b9a"
+          ]
+       }
+    ],
+    "supports_implicit_sdk_logging": true,
+    "gdpv4_nux_enabled": false,
+    "app_events_session_timeout": 60,
+    "aam_rules": "{}",
+    "suggested_events_setting": "{\"production_events\":[],\"eligible_for_prediction_events\":[\"fb_mobile_add_to_cart\",\"fb_mobile_purchase\",\"fb_mobile_complete_registration\",\"fb_mobile_initiated_checkout\"]}",
+    "id": "493960762698668"
+ }
