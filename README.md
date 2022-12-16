@@ -57,6 +57,10 @@ cd到克隆得到的文件夹里，然后用以下命令补全node_modules：
 
 > 在当前版本中，安装完成后进入首次rizline先不要在手机上开HTTP代理，裸连下载更新后，登陆账号时会弹出网络错误，这是正常的，退出游戏然后再打开HTTP代理，重开rizline
 
+无法下载歌曲，进入歌曲点击开始一直未下载完成或卡加载
+
+> 先使用拔卡+魔法大法下载完歌曲再使用私服，或等待私服更新支持resources（这应该不会太久）
+
 能用fiddler classic代替mitmproxy吗？
 
 > 不行，因为 fiddler.network.https> HTTPS handshake to 192.168.1.247 (for #96) failed. System.Security.Authentication.AuthenticationException 调用 SSPI 失败，请参见内部异常。 < 接收到的消息异常，或格式不正确。Win32 (SChannel) Native Error Code: 0x8009032615
